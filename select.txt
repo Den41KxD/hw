@@ -1,0 +1,11 @@
+select concat('We have ',count(*),case gen when 'm' then ' boys!' else ' girls!' end) from users group by gen;
+select concat('This is ',name,case gen when 'm' then ' he' else ' she' end,' has email ' , email) from users;
+
+
+```select concat('This is ',name,
+case gen when 'm' then ' he' else ' she' end,
+' has email ' , email) from users;
+
+select concat('We have ',count(*),
+case gen when 'm' then ' boys!' else ' girls!' end)
+from users group by gen;```
