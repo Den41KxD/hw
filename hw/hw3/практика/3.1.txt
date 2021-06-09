@@ -1,0 +1,14 @@
+# c = [1,2,3,4,5]
+# sum = 0
+# for i in range(0, len(c)):
+#     sum = sum + c[i]
+# print(sum)
+
+
+# c = [1,2,3,4,5]
+# r = 0
+# t = 0
+# while t < len(c):
+#     r += c[t]
+#     t += 1
+# print(r)

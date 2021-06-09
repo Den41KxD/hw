@@ -1,0 +1,13 @@
+Экзамен у студента
+a = int(input("Put rating "))
+
+if a >= 90:
+    print("А")
+elif a >= 80:
+    print("B")
+elif a >= 70:
+    print("C")
+elif a >= 60:
+    print("D")
+else:
+    print("Did not pass the exam")

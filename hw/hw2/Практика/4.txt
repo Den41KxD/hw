@@ -1,0 +1,15 @@
+g = str(input())
+print ("Desyatkov", len(g))
+g=int(g)
+l = 0
+k = 2
+while (g > 1):
+        if (g % k == 0):
+            l = g / k
+            print(k)
+            k = 2
+            g = l
+        else:
+            k += 1
+        if (g == 1):
+            print(g)

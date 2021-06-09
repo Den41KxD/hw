@@ -1,0 +1,17 @@
+d = {'a': 10, 'b': 20, 'c': 50, 'd': 100, 'e': 200, 'f': 500,'g': 1000}
+l = [20, 50, 100, 200, 500, 1000]
+amount = int(input())
+if amount % 100:
+    a1 = amount % 100 // d['a']
+    amount = amount - a1 * d['a']
+    print(d['a'], a1)
+if amount % 10 >= 1:
+    print ('vvedite chislo kratnoe 10')
+else:
+    for i in l:
+        if amount > 0:
+            c = 0
+            while amount - i >= 0 and c < 10:
+                c = c + 1
+                amount = amount - i
+                print(i, c)

@@ -1,0 +1,7 @@
+number = int(input())
+if number == 0:
+    print('vvedite ne 0')
+elif (number != 0) and (number % 2 != 1):
+    print('chetnoe')
+else:
+    print('nechetnoe')

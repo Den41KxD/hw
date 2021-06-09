@@ -1,0 +1,6 @@
+g = int(input())
+i = 1
+while (i <= g):
+    if not g % i:
+        print(i)
+    i += 1
